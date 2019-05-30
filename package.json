@@ -1,0 +1,24 @@
+{
+  "name": "tv-remote-alexa-skill",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.26",
+    "@types/aws-sdk": "^2.7.0",
+    "serverless": "^1.44.1",
+    "serverless-dynamodb-local": "^0.2.37",
+    "serverless-plugin-typescript": "^1.1.7",
+    "tslint": "^5.16.0",
+    "typescript": "^3.5.1",
+    "wscat": "^2.2.1"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.465.0"
+  }
+}
